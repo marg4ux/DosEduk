@@ -5,16 +5,18 @@ body{
 	padding:0;
 	overflow:hidden;
 	object-fit: contain;
+	
 }
 
 #canvas{
 	width: 800px;
-	height: 550px;
+	height: 500px;
 	margin: 100px auto;
 	object-fit: contain;
 }
 
 #book-zoom{
+	
 	-webkit-transition: -webkit-transform 1s;
 	-moz-transition: -moz-transform 1s;
 	-ms-transition: -ms-transform 1s;
@@ -33,9 +35,17 @@ body{
 .sample-docs{
 	margin-top:0px;
 	margin-bottom:20px;
-	width:785px;
+	width:786px;
 	height:500px;
 	object-fit: contain;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	-o-transition: -o-transform 1s;
+	transition: transform 1s;
+	
+
+	
 }
 
 .sample-docs .page{
@@ -74,12 +84,12 @@ body{
 }
 
 .sample-docs .p19{
-	background-position:-785px 0;
+	background-position:-786px 0;
 	background-size: cover;
 }
 
 .sample-docs .p20{
-	background-position:-1177.5px 0;
+	background-position:-1179px 0;
 	background-size: cover;
 }
 
@@ -111,6 +121,7 @@ body{
 	-ms-perspective: 2000px;
 	perspective: 2000px;
 	object-fit: contain;
+
 }
 
 

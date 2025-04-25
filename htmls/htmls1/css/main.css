@@ -91,7 +91,7 @@ a:visited {
 
 a:hover,
 a:focus {
-	color: #000000;
+	color: #6a8d73;
 	border-color: rgba(21, 21, 21, 0.2);
 }
 
@@ -2222,8 +2222,11 @@ header .logo a {
  *  11. content wrap - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+ 
+
 #content-wrap {
 	margin-top: 6.6rem;
+	text-align: justify;
 }
 
 #content-wrap .row {
@@ -2250,6 +2253,14 @@ header .logo a {
 #content-wrap .primary-content {
 	padding-left: 6rem;
 	padding-right: 6rem;
+}
+
+#content-wrap .primary-content a{
+	color: black;
+}
+
+#content-wrap .primary-content a:hover{
+	color: #6a8d73;
 }
 
 #content-wrap .primary-content img {
@@ -3272,7 +3283,7 @@ footer ul li {
 
 #map-wrap #map-zoom-in:hover::before,
 #map-wrap #map-zoom-out:hover::before {
-	color: #034e4a;
+	color: #6a8d73;
 }
 
 /* contact form

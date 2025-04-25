@@ -59,14 +59,6 @@ html, body {
     margin-left: 25px;
 }
 
-.easy {
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    padding: 5%;
-}
-
-
 .landing {
     display: flex;
     flex-direction: row;
@@ -78,14 +70,14 @@ html, body {
 
 .landingText h1 {
     color: #386641;
-    font-size: 6vw;
-    margin: 0 !important;
+    font-size: 3vw;
+    margin: 5 !important;
 }
 
 .landingText h3 {
     margin: 6px !important;
-    font-size: 20px;
-    opacity: 0.3;
+    font-size: 15px;
+    opacity: 0.7;
     line-height: 30px;
 }
 
